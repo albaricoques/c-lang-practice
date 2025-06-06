@@ -682,35 +682,41 @@ int main() {
     
 //30. Leer dos números y verificar si tienen el mismo signo (positivo/negativo).         
 
-    int num1, num2;
+    //int num1, num2;
 
-    printf("Insert the first number: ");
-    scanf("%d", &num1);
+    //printf("Insert the first number: ");
+    //scanf("%d", &num1);
 
-    printf("Insert the second number: ");
-    scanf("%d", &num2);
+    //printf("Insert the second number: ");
+    //scanf("%d", &num2);
 
-    if (num1 > 0 && num2 > 0)
-    {
-        printf("You have positives numbers.\n");
-    }
-    else if (num1 < 0 && num2 < 0)
-    {
-        printf("You have negatives numbers.\n");
-    }
-    else if (num1 > 0 && num2 < 0)
-    {
-        printf("You have positive and nugative numbers.\n");
-    }
-    else if (num1 < 0 && num2 > 0)
-    {
-        printf("You have negative and positive numbers.\n");
-    }
+    //if (num1 > 0 && num2 > 0)
+    //{
+        //printf("You have positives numbers.\n");
+    //}
+    //else if (num1 < 0 && num2 < 0)
+    //{
+        //printf("You have negatives numbers.\n");
+    //}
+    //else if (num1 > 0 && num2 < 0)
+    //{
+        //printf("You have positive and nugative numbers.\n");
+    //}
+    //else if (num1 < 0 && num2 > 0)
+    //{
+        //printf("You have negative and positive numbers.\n");
+    //}
     
+ //31. Leer un número y mostrar su última cifra.   
     
+    int num;
+
+    printf("Insert a number: ");
+    scanf("%d", &num);
+
+    int last = num % 10; 
     
-    
-    
+    printf("The last digit is: %d\n", last);
 
     return 0;
 }
