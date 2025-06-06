@@ -745,7 +745,40 @@ int main() {
     //}
 //    
 
+//33. Leer una nota (0 a 20) y asignar una letra A, B, C, D, E usando if else if.
 
+    //int score;
+
+    //printf("Inser your score: ");
+    //scanf("%d", &score);
+
+    //if (score >= 0 && score <= 20)
+    //{
+        //if (score < 10)
+        //{
+            //printf("E, keep trying harder!\n");
+        //}
+        //else if (score >= 10 && score < 15)
+        //{
+            //printf("D, almost there!\n");
+        //}
+        //else if (score >= 15 && score <=16)
+        //{
+            //printf("C, not bad!\n");
+        //}
+        //else if (score >= 17 && score <=18)
+        //{
+            //printf("B, you're doing well!\n");
+        //}
+        //else {
+            //printf("A, Excellent!!!\n");
+        //}
+    //}
+    //else
+    //{
+        //printf("Invalid input.\n");
+    //}
+    
 
 
     return 0;
