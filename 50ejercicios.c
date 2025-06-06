@@ -709,14 +709,44 @@ int main() {
     
  //31. Leer un número y mostrar su última cifra.   
     
-    int num;
+    //int num;
 
-    printf("Insert a number: ");
-    scanf("%d", &num);
+    //printf("Insert a number: ");
+    //scanf("%d", &num);
 
-    int last = num % 10; 
-    
-    printf("The last digit is: %d\n", last);
+    //int last = num % 10; 
+//    
+    //printf("The last digit is: %d\n", last);
+
+//32. Leer un número de 4 cifras y mostrarlo al revés.    
+
+    //int num;
+
+    //printf("Insert a 4 digits number: ");
+    //scanf("%d", &num);
+
+    //if (num <= 9999 && num >= 1000)
+    //{
+        //int dig1 = num % 10;
+        //int dig2 = (num / 10) % 10;
+        //int dig3 = (num / 100) % 10;
+        //int dig4 = num / 1000;
+
+        //printf("%d%d%d%d\n", dig1, dig2, dig3, dig4);
+    //}
+    //else if (num > -9999 && num <= -1000)
+    //{
+        //int dig1 = num % 10;
+        //int dig2 = (num / -10) % 10;
+        //int dig3 = (num / -100) % 10;
+        //int dig4 = num / -1000;
+
+        //printf("%d%d%d%d\n", dig1, dig2, dig3, dig4);
+    //}
+//    
+
+
+
 
     return 0;
 }
