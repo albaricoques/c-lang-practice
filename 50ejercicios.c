@@ -935,10 +935,82 @@ int main() {
         //printf("You are not eligible for the program.\n");
     //}
     
+//40. Leer un número flotante y verificar si tiene más de dos decimales.
+
+    //float num;
+
+    //printf("Insert a float number: ");
+    //scanf("%f", &num);
+
+    //if (num < 0)
+    //{
+        //num *= -1;
+    //}
+    //printf("%f", num);
+    //int integer = (int)num;
+
+    //num -= integer;
+    //printf("%f", num);
+    //if (num == 0)
+    //{
+        //printf("Your number has not a decimal.\n");
+
+        //return 0;
+    //}
+//    
+    //num *= 10.0;
+
+    //printf("%f", num);
+
+    //integer = (int)num;
+
+    //num -= integer;
+
+    //printf("%f", num);
+    //if (num == 0)
+    //{
+        //printf("Your number has a single decimal.\n");
+
+        //return 0;
+    //}
+//    
+    //num /= 0.1;
+
+    //integer = (int)num;
+
+    //num -= integer;
+
+    //if (num == 0)
+    //{
+        //printf("Your number has a couple decimal.\n");
+
+        //return 0;
+    //}
 
 
+    //printf("Your number has more than two decimals.\n");
 
+    //float num;
 
+    //printf("Insert a float number: ");
+    //scanf("%f", &num);
+
+    //num *= 100;
+
+    //printf("%d", (int)num);
+    
+//41. Leer una letra y verificar si es vocal y minúscula.
+
+    //char letter;
+
+    //printf("Inser a single letter: ");
+    //scanf(" %c", &letter);
+
+    //if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u')
+    //{
+        //printf("Your vowel is a lower case.\n");
+    //}
+    
 
 
 
