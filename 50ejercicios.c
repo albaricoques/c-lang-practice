@@ -1081,6 +1081,34 @@ int main() {
 //    
     //printf("Your bonus is $%.2lf\n", bonus);
 
+//45. Leer la edad y el tiempo de servicio de un trabajador y calcular su jubilación anticipada si tiene al menos 60 años o si tiene más de 30 años de servicio. Mostrar un mensaje indicando si puede jubilarse o no.
+
+    //int age;
+    //int service;
+
+    //printf("Insert your age: ");
+    //scanf("%d", &age);
+
+    //printf("Insert your years of service: ");
+    //scanf("%d", &service);
+
+    //if (age >= 18 && service > 0)
+    //{
+        //if (age >= 60 || service > 30)
+    //{
+        //printf("You apply for retirement.\n");
+    //}
+    //else {
+        //printf("You don't apply for retirement.\n");
+    //}
+    //}
+    
+//46. 
+    
+    
+
+
+
 
 
 
