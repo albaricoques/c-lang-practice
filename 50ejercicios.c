@@ -887,7 +887,37 @@ int main() {
         //printf("Your number is out of range.\n");
     //}
     
+//38. Leer un número y usar un if anidado para clasificarlo: negativo, cero, o positivo par/impar.
 
+    //int num;
+
+    //printf("Insert a number: ");
+    //scanf("%d", &num);
+
+    //if (num > 0)
+    //{
+        //printf("Your number is positive.\n");
+
+        //if (num % 2 == 0)
+        //{
+            //printf("Your number is pair.\n");
+        //}
+        //else {
+            //printf("Your number is odd.\n");
+        //}
+//        
+    //}
+    //else if (num < 0)
+    //{
+        //printf("Your number is negative.\n");
+    //}
+    //else if (num == 0)
+    //{
+        //printf("Your number is a zero.\n");
+    //}
+    
+    
+    
 
 
     return 0;
