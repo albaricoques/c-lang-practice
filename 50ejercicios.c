@@ -720,28 +720,23 @@ int main() {
 
 //32. Leer un número de 4 cifras y mostrarlo al revés.    
 
-    //int num;
-
-    //printf("Insert a 4 digits number: ");
+    //int num, signal = 1;
+	
+	//printf("Insert a 4 digits number: ");
     //scanf("%d", &num);
 
-    //if (num <= 9999 && num >= 1000)
+    //if ( (num <= 9999 && num >= 1000) || (num > -9999 && num <= -1000))
     //{
+    	//if(num < 0){
+    		//signal = -1;
+    		//num *= signal;
+    	//}
         //int dig1 = num % 10;
         //int dig2 = (num / 10) % 10;
         //int dig3 = (num / 100) % 10;
         //int dig4 = num / 1000;
 
-        //printf("%d%d%d%d\n", dig1, dig2, dig3, dig4);
-    //}
-    //else if (num > -9999 && num <= -1000)
-    //{
-        //int dig1 = num % 10;
-        //int dig2 = (num / -10) % 10;
-        //int dig3 = (num / -100) % 10;
-        //int dig4 = num / -1000;
-
-        //printf("%d%d%d%d\n", dig1, dig2, dig3, dig4);
+        //printf("%d%d%d%d\n", (dig1*signal), dig2, dig3, dig4);
     //}
 //    
 
