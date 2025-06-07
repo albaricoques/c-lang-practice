@@ -779,6 +779,64 @@ int main() {
         //printf("Invalid input.\n");
     //}
     
+//34. Leer una cantidad de dinero y calcular el número mínimo de billetes (100, 50, 20, 10, 5, 1).
+
+    int cash;
+    int onehundredbills, fiftybills, twentybills, tenbills, fivebills;
+
+
+    printf("Insert the amount of cash: ");
+    scanf("%d", &cash);
+
+    if (cash > 0)
+    {
+        onehundredbills = cash / 100;
+        cash %= 100;
+        if (onehundredbills != 0)
+        {
+            printf("You recived %d onehundred bills.\n", onehundredbills);
+        }
+        
+        fiftybills = cash / 50;
+        cash %= 50;
+        
+        if (fiftybills != 0)
+        {
+            printf("You recived %d fifty bills.\n", fiftybills);
+        }
+        
+        twentybills = cash / 20;
+        cash %= 20;
+        
+        if (twentybills != 0)
+        {
+            printf("You recived %d twenty bills.\n", twentybills);
+        }
+        
+        tenbills = cash / 10;
+        cash %= 10;
+        
+        if (tenbills != 0)
+        {
+            printf("You recived %d ten bills.\n", tenbills);
+        }
+        
+        fivebills = cash / 5;
+        cash %= 5;
+
+        if (fiftybills != 0)
+        {
+            printf("You recived %d five bills.\n", fivebills);
+        }
+        
+        if (cash != 0)
+        {
+            printf("You recived %d one bills.\n", cash);
+        }
+    }
+    
+
+
 
 
     return 0;
