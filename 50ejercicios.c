@@ -1059,6 +1059,28 @@ int main() {
 //        
     //}
     
+//44. Leer el sueldo de una persona y calcular un bono: 20% si gana <1000, 10% si gana entre 1000 y 2000, 0% si gana más.
+
+    //double salary;
+    //double bonus; 
+
+    //printf("Insert your salary: ");
+    //scanf("%lf", &salary);
+
+    //if (salary > 0 && salary < 1000) 
+    //{
+        //bonus = salary * 0.2;
+    //}
+    //else if (salary >= 1000 && salary <= 2000)
+    //{
+        //bonus = salary * 0.1;
+    //}
+    //else {
+        //bonus = 0;
+    //}
+//    
+    //printf("Your bonus is $%.2lf\n", bonus);
+
 
 
 
