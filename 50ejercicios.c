@@ -1103,9 +1103,52 @@ int main() {
     //}
     //}
     
-//46. 
+//46. Leer el tipo de cliente (‘A’, ‘B’ o ‘C’) y el monto de una compra, y aplicar un descuento: 20% para ‘A’, 10% para ‘B’, 5% para ‘C’. Mostrar el monto final a pagar.
+    
+    //char type;
+
+    //double amount;
+
+    //printf("Insert the type of client (A, B, or C): ");
+    //scanf(" %c", &type);
+
+    //printf("Insert the actual amount: ");
+    //scanf("%lf", &amount);
+
+    //if (amount > 0)
+    //{
+        //if (type == 'A')
+        //{
+            //double discount = amount * 0.2;
+            //amount -= discount;
+            //printf("The total amount with discount is: %.2lf\n", amount);
+//            
+        //}
+        //else if (type == 'B')
+        //{
+            //double discount = amount * 0.1;
+            //amount -= discount;
+            //printf("The total amount with discount is: %.2lf\n", amount);
+        //}
+        //else if (type == 'C')
+        //{
+            //double discount = amount * 0.05;
+            //amount -= discount;
+            //printf("The total amount with discount is: %.2lf\n", amount);
+        //}
+    //}
+    //else {
+        //printf("Invalid input.\n");
+    //}
+
+   
     
     
+
+    
+    
+
+
 
 
 
