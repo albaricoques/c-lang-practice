@@ -1006,6 +1006,32 @@ int main() {
         //printf("Your vowel is a lower case.\n");
     //}
     
+//42. Leer un número entre 1 y 12 e imprimir el número de días del mes (sin considerar años bisiestos).
+
+    //int num;
+
+    //printf("Insert a number (1 to 12): ");
+    //scanf("%d", &num);
+
+    //if (num == 1 || num == 3 || num == 5 || num == 7 || num == 8  || num == 10 || num == 12)
+    //{
+        //printf("Your month have 31 days.\n");
+    //}
+    //else if (num == 4 || num == 6 || num == 9 || num == 11)
+    //{
+        //printf("Your month have 30 days.\n");
+    //}
+    //else if (num == 2)
+    //{
+        //printf("Your month have 28 days.\n");
+    //}
+    //else {
+        //printf("Invalid input.\n");
+    //}
+    
+    
+
+
 
 
 
