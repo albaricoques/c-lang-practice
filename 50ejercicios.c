@@ -1029,9 +1029,36 @@ int main() {
         //printf("Invalid input.\n");
     //}
     
+//43. Leer un número binario de 4 bits como entero (ej. 110)1 y mostrar su valor decimal.
+
+    //int num;
+
+    //printf("Insert your binary number: ");
+    //scanf("%d", &num);
+
+    //if (num >= 0 && num <= 9999) 
+    //{
+        //int num1 = num % 10;
+        //int num2 = (num / 10) % 10;  
+        //int num3 = (num / 100) % 10;
+        //int num4 = num / 1000;
+
+        //if (num1 < 2 && num2 < 2 && num3 < 2 && num4 < 2)
+        //{
+            //num2 *= 2;
+            //num3 *= 4;
+            //num4 *= 8;
+
+            //int decimal = num1 + num2 + num3 + num4;
+
+            //printf("Your decimal number is: %d\n", decimal);
+        //}
+        //else {
+            //printf("Invalid input.\n");
+        //}
+//        
+    //}
     
-
-
 
 
 
