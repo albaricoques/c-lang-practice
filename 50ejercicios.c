@@ -856,28 +856,37 @@ int main() {
     
 //36. Leer un número y mostrar si es divisible entre 2 o entre 3.    
 
-    int num;
+    //int num;
 
-    printf("Insert a number: ");
-    scanf("%d", &num);
+    //printf("Insert a number: ");
+    //scanf("%d", &num);
 
+//    
+    //if (num % 2 == 0 && num % 3 == 0)
+    //{
+        //printf("Your number is divisible by 2 and 3.\n");
+    //}
+    //else if (num % 2 == 0)
+    //{
+        //printf("Your number is divisible by 2.\n");
+    //}
+    //else if (num % 3 == 0)
+    //{
+        //printf("Your number is divisible by 3.\n");
+    //}
     
-    if (num % 2 == 0 && num % 3 == 0)
-    {
-        printf("Your number is divisible by 2 and 3.\n");
-    }
-    else if (num % 2 == 0)
-    {
-        printf("Your number is divisible by 2.\n");
-    }
-    else if (num % 3 == 0)
-    {
-        printf("Your number is divisible by 3.\n");
-    }
+//37. Leer un número y verificar si está fuera del rango [50, 100] (usar !).
+
+    //int num;
+
+    //printf("Insert a number: ");
+    //scanf("%d", &num);
+
+    //if (!(num >= 50 && num <= 100))
+    //{
+        //printf("Your number is out of range.\n");
+    //}
     
-
-
-
 
 
 
