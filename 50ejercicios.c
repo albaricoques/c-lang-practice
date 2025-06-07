@@ -911,8 +911,31 @@ int main() {
         //printf("Your number is a zero.\n");
     //}
     
+//39. Leer la edad y sexo de una persona y mostrar si es apta para cierto programa (mayor de 18 y mujer).    
     
+    //int age;
+    //char gender;
+
+    //printf("Insert your age: ");
+    //scanf("%d", &age);
+
+    //printf("Insert you gender, 'M' or 'F': ");
+    //scanf(" %c", &gender);
+
+    //if (age >= 18 && gender == 'F')
+    //{
+        //printf("You are eligible for the program.\n");
+    //}
+    //else {
+        //printf("You are not eligible for the program.\n");
+    //}
     
+
+
+
+
+
+
 
 
     return 0;
