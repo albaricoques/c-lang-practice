@@ -20,16 +20,31 @@ int main() {
 
 //2. Convertir grados Celsius a Fahrenheit.
 
-    float celsius, fahrenheit;
+    //float celsius, fahrenheit;
 
-    printf("Insert your temperature in °C: ");
-    scanf("%f", &celsius);
+    //printf("Insert your temperature in °C: ");
+    //scanf("%f", &celsius);
 
-    fahrenheit = (celsius * 9 / 5) + 32;
+    //fahrenheit = (celsius * 9 / 5) + 32;
 
-    printf("Your temperature in °F is: %.1lf\n", fahrenheit);
+    //printf("Your temperature in °F is: %.1lf\n", fahrenheit);
     
+//3. Determinar si un número es par o impar.
+
+    int num;
+
+    printf("Insert a number: ");
+    scanf("%d", &num);
+
+    if (num % 2 == 0)
+    {
+        printf("Your number is even.\n");
+    }
+    else {
+        printf("Your number is odd.\n");
+    }
     
+//4. 
 
     
     
