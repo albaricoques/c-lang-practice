@@ -1141,10 +1141,268 @@ int main() {
         //printf("Invalid input.\n");
     //}
 
-   
+//47. Leer tres calificaciones (float), eliminar la más baja, y calcular el promedio de las dos mayores. Mostrar si el promedio es suficiente para aprobar (>= 11).
+
+    //float score1, score2, score3;
+
+    //float average;
+
+    //printf("insert the first score: ");
+    //scanf("%f", &score1);
+
+    //printf("insert the second score: ");
+    //scanf("%f", &score2);
+//    
+    //printf("insert the third score: ");
+    //scanf("%f", &score3);
+
+    //if (score1 > 0 && score1 <= 20 && score2 > 0 && score2 <= 20 && score3 > 0 && score3 <= 20)
+    //{
+        //if (score1 > score2 && score2 > score3)
+        //{
+            //average = (score1 + score2) / 2;
+            //printf("Your average score is: %.1lf\n", average);
+        //}
+        //else if (score1 > score2 && score3 > score2)
+        //{
+            //average = (score1 + score3) / 2;
+            //printf("Your average score is: %.1lf\n", average);
+        //}
+        //else if (score2 > score1 && score1 > score3)
+        //{
+            //average = (score1 + score2) / 2;
+            //printf("Your average score is: %.1lf\n", average);
+        //}
+        //else if (score2 > score1 && score3 > score1)
+        //{
+            //average = (score2 + score3) / 2;
+            //printf("Your average score is: %.1lf\n", average);
+        //}
+        //else if (score3 > score2 && score2 > score1)
+        //{
+            //average = (score2 + score3) / 2;
+            //printf("Your average score is: %.1lf\n", average);
+        //}
+        //else if (score3 > score2 && score1 > score2)
+        //{
+            //average = (score1 + score2) / 2;
+            //printf("Your average score is: %.1lf\n", average);
+        //}
+        //else if (score1 == score2 && score2 > score3)
+        //{
+            //average = (score1 + score2) / 2;
+            //printf("Your average score is: %.1lf\n", average);
+        //}
+        //else if (score1 == score2 && score3 > score2)
+        //{
+            //average = (score1 + score3) / 2;
+            //printf("Your average score is: %.1lf\n", average);
+        //}
+        //else if (score2 == score1 && score1 > score3)
+        //{
+            //average = (score1 + score2) / 2;
+            //printf("Your average score is: %.1lf\n", average);
+        //}
+        //else if (score2 == score1 && score3 > score1)
+        //{
+            //average = (score2 + score3) / 2;
+            //printf("Your average score is: %.1lf\n", average);
+        //}
+        //else if (score3 == score2 && score2 > score1)
+        //{
+            //average = (score2 + score3) / 2;
+            //printf("Your average score is: %.1lf\n", average);
+        //}
+        //else if (score3 == score2 && score1 > score2)
+        //{
+            //average = (score1 + score2) / 2;
+            //printf("Your average score is: %.1lf\n", average);
+        //}
+    //}
+    
+//48. Leer una cantidad en soles y mostrar la cantidad equivalente en billetes: cuántos de 200, 100, 50, 20 y monedas de 10, 5, 2 y 1. El resultado debe ser lo más eficiente posible (empezando por billetes más grandes).
+
+    //int soles;
+    //int doscientos, cien, cincuenta, veinte, diez, cinco, dos, uno;
+
+    //printf("Inserte la cantidad total de soles: ");
+    //scanf("%d", &soles);
+
+    //if (soles > 0)
+    //{
+        //doscientos = soles / 200;
+        //soles %= 200;
+//        
+        //if (doscientos != 0)
+        //{
+            //printf("Recibirá %d billetes de 200.\n", doscientos);
+        //}
+//        
+        //cien = soles / 100;
+        //soles %= 100;
+//        
+        //if (cien != 0)
+        //{
+            //printf("Recibirá %d billetes de 100.\n", cien);
+        //}
+
+        //cincuenta = soles / 50;
+        //soles %= 50;
+//        
+        //if (cincuenta != 0)
+        //{
+            //printf("Recibirá %d billetes de 50.\n", cincuenta);
+        //}
+//       
+        //veinte = soles / 20;
+        //soles %= 20;
+//        
+        //if (veinte != 0)
+        //{
+            //printf("Recibirá %d billetes de 20.\n", veinte);
+        //}
+
+        //diez = soles / 10;
+        //soles %= 10;
+//        
+        //if (diez != 0)
+        //{
+            //printf("Recibirá %d billetes de 10.\n", diez);
+        //}
+
+        //cinco = soles / 5;
+        //soles %= 5;
+//        
+        //if (cinco != 0)
+        //{
+            //printf("Recibirá %d billetes de 5.\n", cinco);
+        //}
+
+        //dos = soles / 2;
+        //soles %= 2;
+//        
+        //if (dos != 0)
+        //{
+            //printf("Recibirá %d billetes de 2.\n", dos);
+        //}
+
+        //uno = soles / 1;
+        //soles %= 1;
+//        
+        //if (uno != 0)
+        //{
+            //printf("Recibirá %d billetes de 1.\n", uno);
+        //}
+    //}
+
+//49. Leer una fecha como día, mes y año, y verificar si es válida (sin usar estructuras de fecha). Considerar años bisiestos y los días máximos de cada mes.
+
+    //int day, month, year;
+
+    //printf("Insert a day: ");
+    //scanf("%d", &day);
+//    
+    //printf("Insert a month: ");
+    //scanf("%d", &month);
+
+    //printf("Insert a year: ");
+    //scanf("%d", &year);
+
+    //if (day > 0 && day <= 31 && month > 0 && month <= 12 && year > 0)
+    //{
+        //if (month == 2)
+        //{
+            //if (day >= 1 && day <= 28)
+            //{
+                //printf("Your date is valid.\n");
+            //}
+            //else if (day == 29)
+            //{
+                //if (year % 100 == 0) 
+                    //{
+                        //if (year % 400 == 0)
+                        //{
+                        //printf("Your date is valid.\n");
+                        //}
+                        //else {
+                            //printf("Your date is not valid.\n");
+                        //}
+                    //}
+                //else if (year % 4 == 0)
+                    //{
+                        //printf("Your date is valid.\n");
+                    //}
+            //}
+                //else {
+                    //printf("Your date is not valid.\n");
+                //}
+        //}
+//            
+        //if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
+        //{
+            //if (day >= 1 && day <= 31)
+            //{
+                //printf("Your date is valid.\n");
+            //}
+            //else {
+                //printf("Your date is not valid.\n");
+            //}
+//            
+        //}
+        //else if (month == 4 || month == 6 || month == 9 || month == 11)
+        //{
+            //if (day >= 1 && day <= 30)
+            //{
+                //printf("Your date is valid.\n");
+            //}
+            //else {
+                //printf("Your date is not valid.\n");
+            //}
+//            
+        //}
+    //}
+    
+//50. Leer la hora de entrada y salida de un trabajador (en formato 24h, solo horas enteras) y calcular cuántas horas trabajó en total. Si trabajó más de 8 horas, mostrar cuántas horas fueron extra. Considerar que puede salir el día siguiente (ej. entra a las 22 y sale a las 6).
+    
+    //int timein, timeout;
+
+    //printf("Insert your enter time: ");
+    //scanf("%d", &timein);
+
+    //printf("Insert your time out: ");
+    //scanf("%d", &timeout);
+
+    //if (timein < timeout)
+    //{
+        //int timework = timeout - timein;
+        //int extrahours = timework - 8;
+//    
+        //if (timework > 8)
+        //{
+            //printf("You worked a total of %d extra hours.\n", extrahours);
+        //}
+        //else {
+            //printf("You don't worked extra hours.\n");
+        //}
+    //}
+    //else if (timein > timeout)
+    //{
+        //int timework = (timeout + 24) - timein;
+        //int extrahours = timework - 8;
+//    
+        //if (timework > 8)
+        //{
+            //printf("You worked a total of %d extra hours.\n", extrahours);
+        //}
+        //else {
+            //printf("You don't worked extra hours.\n");
+        //}
+    //}
     
     
 
+    
+    
     
     
 
