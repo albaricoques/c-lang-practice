@@ -31,20 +31,33 @@ int main() {
     
 //3. Determinar si un número es par o impar.
 
-    int num;
+    //int num;
+
+    //printf("Insert a number: ");
+    //scanf("%d", &num);
+
+    //if (num % 2 == 0)
+    //{
+        //printf("Your number is even.\n");
+    //}
+    //else {
+        //printf("Your number is odd.\n");
+    //}
+    
+//4. Calcular el cuadrado y cubo de un número.
+
+    float num;
 
     printf("Insert a number: ");
-    scanf("%d", &num);
+    scanf("%f", &num);
 
-    if (num % 2 == 0)
-    {
-        printf("Your number is even.\n");
-    }
-    else {
-        printf("Your number is odd.\n");
-    }
-    
-//4. 
+    float square, cube;
+
+    square = pow(num, 2);
+    cube = pow(num, 3);
+
+    printf("The square of your number is: %.2lf\n", square);
+    printf("The cube of your number is: %.2lf\n", cube);
 
     
     
