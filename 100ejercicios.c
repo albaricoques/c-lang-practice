@@ -78,6 +78,39 @@ int main() {
         //printf("Your number is zero.\n");
     //}
     
+//6. Leer la edad de una persona y clasificarla: niño (0–12), adolescente (13–17), adulto (18–64), anciano (65+).
+
+    //int age;
+
+    //printf("Insert your age: ");
+    //scanf("%d", &age);
+
+    //if (age >= 0 && age <= 12)
+    //{
+        //printf("You're a kid.\n");
+    //}
+    //else if (age >= 13 && age <= 17)
+    //{
+        //printf("You're a teenager.\n");
+    //}
+    //else if (age >= 18 && age >= 64)
+    //{
+        //printf("You're an adult.\n");
+    //}
+    //else if (age > 64)
+    //{
+        //printf("You're an older adult.\n");
+    //}
+    //else {
+        //printf("Invalid input.\n");
+    //}
+
+
+
+   
+   
+   
+   
     
     
     
