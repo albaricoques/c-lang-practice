@@ -46,21 +46,37 @@ int main() {
     
 //4. Calcular el cuadrado y cubo de un número.
 
-    float num;
+    //float num;
 
-    printf("Insert a number: ");
-    scanf("%f", &num);
+    //printf("Insert a number: ");
+    //scanf("%f", &num);
 
-    float square, cube;
+    //float square, cube;
 
-    square = pow(num, 2);
-    cube = pow(num, 3);
+    //square = pow(num, 2);
+    //cube = pow(num, 3);
 
-    printf("The square of your number is: %.2lf\n", square);
-    printf("The cube of your number is: %.2lf\n", cube);
+    //printf("The square of your number is: %.2lf\n", square);
+    //printf("The cube of your number is: %.2lf\n", cube);
 
-    
-    
+//5. Determinar si un número es positivo, negativo o cero.
+
+    //int num;
+
+    //printf("Insert a number: ");
+    //scanf("%d", &num);
+//    
+    //if (num > 0)
+    //{
+        //printf("Your number is positive.\n");
+    //}
+    //else if (num < 0)
+    //{
+        //printf("Your number is negative.\n");
+    //}
+    //else {
+        //printf("Your number is zero.\n");
+    //}
     
     
     
