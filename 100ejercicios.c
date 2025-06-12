@@ -180,21 +180,34 @@ int main() {
     
 //9. Calcular la suma de los primeros N números naturales.
     
-    int num;
-    int sum = 0;
+    //int num;
+    //int sum = 0;
 
-    printf("Insert a number: ");
+    //printf("Insert a number: ");
+    //scanf("%d", &num);
+
+    //for (int i = 1; i <= num; i++)
+    //{
+        //sum += i;
+    //}
+//    
+    //printf("%d\n", sum);
+    
+
+//10. Calcular el factorial de un número (sin recursión).
+
+    int num;
+    int factorial = 1;
+
+    printf("Insert your number: \n");
     scanf("%d", &num);
 
     for (int i = 1; i <= num; i++)
     {
-        sum += i;
+        factorial *= i;
     }
     
-    printf("%d\n", sum);
-    
-
-   
+    printf("%d\n", factorial);
    
    
    
