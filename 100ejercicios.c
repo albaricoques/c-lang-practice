@@ -226,22 +226,53 @@ int main() {
 
 //12. Verificar si un año es bisiesto.
     
-    int year;
+    //int year;
 
-    printf("Insert a year: ");
-    scanf("%d", &year);
+    //printf("Insert a year: ");
+    //scanf("%d", &year);
 
-    if (year % 4 == 0)
+    //if (year % 4 == 0)
+    //{
+        //printf("Your year is a leap year.\n");
+    //}
+    //else if (year % 100 == 0)
+    //{
+        //if (year % 400 == 0)
+        //{
+            //printf("Your year is a leap year.\n");
+        //}
+    //}
+
+//13. Leer el tiempo en segundos y convertirlo a horas, minutos y segundos.
+
+    int secs;
+    int mins;
+    int hrs;
+
+    printf("Insert the total seconds: ");
+    scanf("%d", &secs);
+
+    if (secs < 60 && secs > 0)
     {
-        printf("Your year is a leap year.\n");
-    }
-    else if (year % 100 == 0)
-    {
-        if (year % 400 == 0)
+        if (secs < 10)
         {
-            printf("Your year is a leap year.\n");
+            printf("00:00:0%d\n", secs);
+        }
+        else {
+            printf("00:00:%d\n", secs);
         }
     }
+
+    if (secs >= 60)
+    {
+        hrs = secs / 3600;
+        mins = (secs % 3600) / 60;
+        secs %= 60;
+
+        printf("%02d:%02d:%02d\n", hrs, mins, secs);
+    }
+    
+    
     
     
     
