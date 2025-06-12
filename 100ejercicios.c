@@ -245,33 +245,44 @@ int main() {
 
 //13. Leer el tiempo en segundos y convertirlo a horas, minutos y segundos.
 
-    int secs;
-    int mins;
-    int hrs;
+    //int secs;
+    //int mins;
+    //int hrs;
 
-    printf("Insert the total seconds: ");
-    scanf("%d", &secs);
+    //printf("Insert the total seconds: ");
+    //scanf("%d", &secs);
 
-    if (secs < 60 && secs > 0)
-    {
-        if (secs < 10)
-        {
-            printf("00:00:0%d\n", secs);
-        }
-        else {
-            printf("00:00:%d\n", secs);
-        }
-    }
+    //if (secs < 60 && secs > 0)
+    //{
+        //if (secs < 10)
+        //{
+            //printf("00:00:0%d\n", secs);
+        //}
+        //else {
+            //printf("00:00:%d\n", secs);
+        //}
+    //}
 
-    if (secs >= 60)
-    {
-        hrs = secs / 3600;
-        mins = (secs % 3600) / 60;
-        secs %= 60;
+    //if (secs >= 60)
+    //{
+        //hrs = secs / 3600;
+        //mins = (secs % 3600) / 60;
+        //secs %= 60;
 
-        printf("%02d:%02d:%02d\n", hrs, mins, secs);
-    }
+        //printf("%02d:%02d:%02d\n", hrs, mins, secs);
+    //}
     
+//Leer un número y verificar si es divisible entre 3 y 5.
+
+    int num;
+
+    printf("Insert a number: ");
+    scanf("%d", &num);
+
+    if (num % 3 == 0 && num % 5 == 0)
+    {
+        printf("Your number divisible by 3 and 5.\n");
+    }
     
     
     
