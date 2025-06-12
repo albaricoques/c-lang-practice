@@ -105,7 +105,63 @@ int main() {
         //printf("Invalid input.\n");
     //}
 
+//7. Leer un carácter e indicar si es una vocal, consonante o símbolo.
 
+    char letter;
+
+    printf("Insert a character: ");
+    scanf(" %c", &letter);
+
+    switch (letter)
+    {
+    case 'a':
+        printf("Your letter is a vowel.\n");
+        break;
+    case 'e':
+        printf("Your letter is a vowel.\n");
+        break;
+    case 'i':
+        printf("Your letter is a vowel.\n");
+        break;
+    case 'o':
+        printf("Your letter is a vowel.\n");
+        break;
+    case 'u':
+        printf("Your letter is a vowel.\n");
+        break;
+    case 'A':
+        printf("Your letter is a vowel.\n");
+        break;
+    case 'E':
+        printf("Your letter is a vowel.\n");
+        break;
+    case 'I':
+        printf("Your letter is a vowel.\n");
+        break;
+    case 'O':
+        printf("Your letter is a vowel.\n");
+        break;
+    case 'U':
+        printf("Your letter is a vowel.\n");
+        break;
+    }
+
+    if (letter >= 'a' && letter <= 'z' && letter != 'a' && letter != 'e' && letter != 'i' && letter != 'o' && letter != 'u')
+    {
+        printf("Your letter is a consonat.\n");
+    }
+    else if (letter >= 'A' && letter <= 'Z' && letter != 'A' && letter != 'E' && letter != 'I' && letter != 'O' && letter != 'U')
+    {
+        printf("Your character is a consonat.\n");
+    }
+    else if (letter != '0' && letter != '2' && letter != '3' && letter != '4' && letter != '5' && letter != '6' && letter != '7' && letter != '8' && letter != '9')
+    {
+        printf("Your character is a symbol.\n");
+    }
+    
+
+
+    
 
    
    
