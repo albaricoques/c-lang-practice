@@ -107,60 +107,78 @@ int main() {
 
 //7. Leer un carácter e indicar si es una vocal, consonante o símbolo.
 
-    char letter;
+    //char letter;
 
-    printf("Insert a character: ");
-    scanf(" %c", &letter);
+    //printf("Insert a character: ");
+    //scanf(" %c", &letter);
 
-    switch (letter)
-    {
-    case 'a':
-        printf("Your letter is a vowel.\n");
-        break;
-    case 'e':
-        printf("Your letter is a vowel.\n");
-        break;
-    case 'i':
-        printf("Your letter is a vowel.\n");
-        break;
-    case 'o':
-        printf("Your letter is a vowel.\n");
-        break;
-    case 'u':
-        printf("Your letter is a vowel.\n");
-        break;
-    case 'A':
-        printf("Your letter is a vowel.\n");
-        break;
-    case 'E':
-        printf("Your letter is a vowel.\n");
-        break;
-    case 'I':
-        printf("Your letter is a vowel.\n");
-        break;
-    case 'O':
-        printf("Your letter is a vowel.\n");
-        break;
-    case 'U':
-        printf("Your letter is a vowel.\n");
-        break;
-    }
+    //switch (letter)
+    //{
+    //case 'a':
+        //printf("Your letter is a vowel.\n");
+        //break;
+    //case 'e':
+        //printf("Your letter is a vowel.\n");
+        //break;
+    //case 'i':
+        //printf("Your letter is a vowel.\n");
+        //break;
+    //case 'o':
+        //printf("Your letter is a vowel.\n");
+        //break;
+    //case 'u':
+        //printf("Your letter is a vowel.\n");
+        //break;
+    //case 'A':
+        //printf("Your letter is a vowel.\n");
+        //break;
+    //case 'E':
+        //printf("Your letter is a vowel.\n");
+        //break;
+    //case 'I':
+        //printf("Your letter is a vowel.\n");
+        //break;
+    //case 'O':
+        //printf("Your letter is a vowel.\n");
+        //break;
+    //case 'U':
+        //printf("Your letter is a vowel.\n");
+        //break;
+    //}
 
-    if (letter >= 'a' && letter <= 'z' && letter != 'a' && letter != 'e' && letter != 'i' && letter != 'o' && letter != 'u')
+    //if (letter >= 'a' && letter <= 'z' && letter != 'a' && letter != 'e' && letter != 'i' && letter != 'o' && letter != 'u')
+    //{
+        //printf("Your letter is a consonat.\n");
+    //}
+    //else if (letter >= 'A' && letter <= 'Z' && letter != 'A' && letter != 'E' && letter != 'I' && letter != 'O' && letter != 'U')
+    //{
+        //printf("Your character is a consonat.\n");
+    //}
+    //else if (letter != '0' && letter != '2' && letter != '3' && letter != '4' && letter != '5' && letter != '6' && letter != '7' && letter != '8' && letter != '9')
+    //{
+        //printf("Your character is a symbol.\n");
+    //}
+    
+//8. Leer dos números y mostrar el mayor.
+
+    int num1, num2;
+    
+    printf("Insert the first number: ");
+    scanf("%d", &num1);
+
+    printf("Insert the second number: ");
+    scanf("%d", &num2);
+
+    if (num1 > num2)
     {
-        printf("Your letter is a consonat.\n");
+        printf("%d\n", num1);
     }
-    else if (letter >= 'A' && letter <= 'Z' && letter != 'A' && letter != 'E' && letter != 'I' && letter != 'O' && letter != 'U')
+    else if (num2 > num1)
     {
-        printf("Your character is a consonat.\n");
-    }
-    else if (letter != '0' && letter != '2' && letter != '3' && letter != '4' && letter != '5' && letter != '6' && letter != '7' && letter != '8' && letter != '9')
-    {
-        printf("Your character is a symbol.\n");
+        printf("%d\n", num2);
     }
     
-
-
+    
     
 
    
