@@ -211,18 +211,37 @@ int main() {
    
 //11. Contar cuántos dígitos tiene un número.
 
-    int num;
-    int length = 0;
-    
-    printf("Insert a number: ");
-    scanf("%d", &num);
+    //int num;
+    //int length = 0;
+//    
+    //printf("Insert a number: ");
+    //scanf("%d", &num);
 
-    for (int i = num; i > 0; i /= 10)
-    {
-        length++;
-    }
+    //for (int i = num; i > 0; i /= 10)
+    //{
+        //length++;
+    //}
+//    
+    //printf("%d\n", length);
+
+//12. Verificar si un año es bisiesto.
     
-    printf("%d\n", length);
+    int year;
+
+    printf("Insert a year: ");
+    scanf("%d", &year);
+
+    if (year % 4 == 0)
+    {
+        printf("Your year is a leap year.\n");
+    }
+    else if (year % 100 == 0)
+    {
+        if (year % 400 == 0)
+        {
+            printf("Your year is a leap year.\n");
+        }
+    }
     
     
     
