@@ -196,27 +196,33 @@ int main() {
 
 //10. Calcular el factorial de un número (sin recursión).
 
-    int num;
-    int factorial = 1;
+    //int num;
+    //int factorial = 1;
 
-    printf("Insert your number: \n");
+    //printf("Insert your number: \n");
+    //scanf("%d", &num);
+
+    //for (int i = 1; i <= num; i++)
+    //{
+        //factorial *= i;
+    //}
+//    
+    //printf("%d\n", factorial);
+   
+//11. Contar cuántos dígitos tiene un número.
+
+    int num;
+    int length = 0;
+    
+    printf("Insert a number: ");
     scanf("%d", &num);
 
-    for (int i = 1; i <= num; i++)
+    for (int i = num; i > 0; i /= 10)
     {
-        factorial *= i;
+        length++;
     }
     
-    printf("%d\n", factorial);
-   
-   
-   
-    
-    
-    
-    
-    
-    
+    printf("%d\n", length);
     
     
     
