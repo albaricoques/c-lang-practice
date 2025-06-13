@@ -334,22 +334,36 @@ int main() {
     
 //17. Leer un número de 3 dígitos y mostrar el valor de sus cifras separadas.
 
-    int num;
+    //int num;
 
-    printf("Insert a three digits number: ");
-    scanf("%d", &num);
+    //printf("Insert a three digits number: ");
+    //scanf("%d", &num);
 
-    if (num >= 100 && num <= 1000);
-    {
-        int digit1, digit2, digit3;
+    //if (num >= 100 && num <= 1000);
+    //{
+        //int digit1, digit2, digit3;
 
-        digit1 = num % 10;
-        digit2 = (num / 10) % 10;
-        digit3 = num / 100;
+        //digit1 = num % 10;
+        //digit2 = (num / 10) % 10;
+        //digit3 = num / 100;
 
-        printf("%d, %d, %d\n", digit3, digit2, digit1);
-    }
+        //printf("%d, %d, %d\n", digit3, digit2, digit1);
+    //}
     
+//18. Verificar si una persona puede votar (edad >= 18).
+
+    int age;
+
+    printf("Insert your age: ");
+    scanf("%d", &age);
+
+    if (age >= 18 && age <= 123)
+    {
+        printf("You can vote.\n");
+    }
+    else {
+        printf("You can't vote.\n");
+    }
     
     
     
