@@ -286,27 +286,51 @@ int main() {
 
 //15. Calcular el salario de un trabajador dado el número de horas y la tarifa por hora.
 
-    float rate;
-    int hrs, weeks;
-    float salary;
+    //float rate;
+    //int hrs, weeks;
+    //float salary;
 
-    printf("Insert your worked hours per week: ");
-    scanf("%d", &hrs);
+    //printf("Insert your worked hours per week: ");
+    //scanf("%d", &hrs);
 
-    printf("Insert your hourly rate: ");
-    scanf("%f", &rate);
+    //printf("Insert your hourly rate: ");
+    //scanf("%f", &rate);
 
-    printf("Insert number of weeks worked: ");
-    scanf("%d", &weeks);
+    //printf("Insert number of weeks worked: ");
+    //scanf("%d", &weeks);
 
-    salary = hrs * rate * weeks;
+    //salary = hrs * rate * weeks;
 
-    printf("Your total salary is: $%.2f\n", salary);
+    //printf("Your total salary is: $%.2f\n", salary);
     
+//16. Calcular el promedio de tres notas y determinar si el estudiante aprueba (>= 10.5).
     
-    
-    
-    
+    float score1, score2, score3;
+
+    printf("Insert your first score: ");
+    scanf("%f", &score1);
+
+    printf("Insert your second score: ");
+    scanf("%f", &score2);
+
+    printf("Insert your third score: ");
+    scanf("%f", &score3);
+
+    if (score1 > 0 && score1 <= 20 && score2 > 0 && score2 <= 20 && score3 > 0 && score3 <= 20)
+    {
+        float average = (score1 + score2 + score3) / 3;
+        
+        if (average >= 10.5 && average <= 20)
+        {
+            printf("%.2lf, You're approved.\n", average);
+        }
+        else {
+            printf("%.2lf, You're failed.\n", average);
+            }
+    }
+    else {
+        printf("Invalid input.\n");
+    }
     
     
     
