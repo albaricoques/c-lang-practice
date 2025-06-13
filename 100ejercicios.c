@@ -352,25 +352,90 @@ int main() {
     
 //18. Verificar si una persona puede votar (edad >= 18).
 
-    int age;
+    //int age;
 
-    printf("Insert your age: ");
-    scanf("%d", &age);
+    //printf("Insert your age: ");
+    //scanf("%d", &age);
 
-    if (age >= 18 && age <= 123)
-    {
-        printf("You can vote.\n");
-    }
-    else {
-        printf("You can't vote.\n");
-    }
+    //if (age >= 18 && age <= 123)
+    //{
+        //printf("You can vote.\n");
+    //}
+    //else {
+        //printf("You can't vote.\n");
+    //}
     
-    
-    
-    
-    
-    
-    
+//19. Simular un cajero que recibe un monto y da cambio usando billetes de 100, 50, 20, 10, 5 y monedas de 1.
+
+    int cash;
+    do {
+        printf("\n=== Insert your card. ====\n");
+
+        printf("Insert the amount to withdraw.\n1. 20\n2. 50\n3. 100\n4. 500\n5. 1000\n");
+        scanf("%d", &cash);
+
+        switch (cash)
+        {
+        case 1:
+            printf("Counting your cash...\n");
+            break;
+        case 2:
+            printf("Counting your cash...\n");
+            break;
+        case 3:
+            printf("Counting your cash...\n");
+            break;
+        case 4:
+            printf("Counting your cash...\n");
+            break;
+        case 5:
+            printf("Counting your cash...\n");
+            break;
+        default:
+            break;
+        }
+
+        if (cash == 1)
+        {
+            int cob;
+            printf("1. Coins or 2. Bill ?\n");
+            scanf("%d", &cob);
+
+            switch (cob)
+            {
+            case 1:
+                printf("You recived:\n(1) ten bill\n(1) five bill\n(5) one coins\n");
+                break;
+            case 2:
+                printf("You recived:\n(1) twenty bill\n");
+            default:
+                break;
+            }
+        }
+        else if (cash == 2)
+        {
+            printf("You recived:\n(1) fifty bill\n");
+        }
+        else if (cash == 3)
+        {
+            printf("You recived:\n(1) onehundred bill\n");
+        }
+        else if (cash == 4)
+        {
+            printf("You recived:\n(5) onehundred bills\n");
+        }
+        else if (cash == 4)
+        {
+            printf("You recived:\n(5) onehundred bills\n");
+        }
+        else if (cash == 5)
+        {
+            printf("You recived:\n(10) onehundred bills\n");
+        }
+        else {
+            printf("Invalid operation, restarting...\n");
+        }
+    } while (cash = (cash > 5));
     
     
     
