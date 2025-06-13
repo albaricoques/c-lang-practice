@@ -305,33 +305,50 @@ int main() {
     
 //16. Calcular el promedio de tres notas y determinar si el estudiante aprueba (>= 10.5).
     
-    float score1, score2, score3;
+    //float score1, score2, score3;
 
-    printf("Insert your first score: ");
-    scanf("%f", &score1);
+    //printf("Insert your first score: ");
+    //scanf("%f", &score1);
 
-    printf("Insert your second score: ");
-    scanf("%f", &score2);
+    //printf("Insert your second score: ");
+    //scanf("%f", &score2);
 
-    printf("Insert your third score: ");
-    scanf("%f", &score3);
+    //printf("Insert your third score: ");
+    //scanf("%f", &score3);
 
-    if (score1 > 0 && score1 <= 20 && score2 > 0 && score2 <= 20 && score3 > 0 && score3 <= 20)
-    {
-        float average = (score1 + score2 + score3) / 3;
-        
-        if (average >= 10.5 && average <= 20)
-        {
-            printf("%.2lf, You're approved.\n", average);
-        }
-        else {
-            printf("%.2lf, You're failed.\n", average);
-            }
-    }
-    else {
-        printf("Invalid input.\n");
-    }
+    //if (score1 > 0 && score1 <= 20 && score2 > 0 && score2 <= 20 && score3 > 0 && score3 <= 20)
+    //{
+        //float average = (score1 + score2 + score3) / 3;
+//        
+        //if (average >= 10.5 && average <= 20)
+        //{
+            //printf("%.2lf, You're approved.\n", average);
+        //}
+        //else {
+            //printf("%.2lf, You're failed.\n", average);
+            //}
+    //}
+    //else {
+        //printf("Invalid input.\n");
+    //}
     
+//17. Leer un número de 3 dígitos y mostrar el valor de sus cifras separadas.
+
+    int num;
+
+    printf("Insert a three digits number: ");
+    scanf("%d", &num);
+
+    if (num >= 100 && num <= 1000);
+    {
+        int digit1, digit2, digit3;
+
+        digit1 = num % 10;
+        digit2 = (num / 10) % 10;
+        digit3 = num / 100;
+
+        printf("%d, %d, %d\n", digit3, digit2, digit1);
+    }
     
     
     
