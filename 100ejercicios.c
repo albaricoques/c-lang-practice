@@ -272,18 +272,36 @@ int main() {
         //printf("%02d:%02d:%02d\n", hrs, mins, secs);
     //}
     
-//Leer un número y verificar si es divisible entre 3 y 5.
+//14. Leer un número y verificar si es divisible entre 3 y 5.
 
-    int num;
+    //int num;
 
-    printf("Insert a number: ");
-    scanf("%d", &num);
+    //printf("Insert a number: ");
+    //scanf("%d", &num);
 
-    if (num % 3 == 0 && num % 5 == 0)
-    {
-        printf("Your number divisible by 3 and 5.\n");
-    }
-    
+    //if (num % 3 == 0 && num % 5 == 0)
+    //{
+        //printf("Your number is divisible by 3 and 5.\n");
+    //}
+
+//15. Calcular el salario de un trabajador dado el número de horas y la tarifa por hora.
+
+    float rate;
+    int hrs, weeks;
+    float salary;
+
+    printf("Insert your worked hours per week: ");
+    scanf("%d", &hrs);
+
+    printf("Insert your hourly rate: ");
+    scanf("%f", &rate);
+
+    printf("Insert number of weeks worked: ");
+    scanf("%d", &weeks);
+
+    salary = hrs * rate * weeks;
+
+    printf("Your total salary is: $%.2f\n", salary);
     
     
     
