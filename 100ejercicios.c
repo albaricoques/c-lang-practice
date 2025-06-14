@@ -367,77 +367,105 @@ int main() {
     
 //19. Simular un cajero que recibe un monto y da cambio usando billetes de 100, 50, 20, 10, 5 y monedas de 1.
 
-    int cash;
-    do {
-        printf("\n=== Insert your card. ====\n");
+    //int cash;
+    //do {
+        //printf("\n=== Insert your card. ====\n");
 
-        printf("Insert the amount to withdraw.\n1. 20\n2. 50\n3. 100\n4. 500\n5. 1000\n");
-        scanf("%d", &cash);
+        //printf("Insert the amount to withdraw.\n1. 20\n2. 50\n3. 100\n4. 500\n5. 1000\n");
+        //scanf("%d", &cash);
 
-        switch (cash)
-        {
-        case 1:
-            printf("Counting your cash...\n");
-            break;
-        case 2:
-            printf("Counting your cash...\n");
-            break;
-        case 3:
-            printf("Counting your cash...\n");
-            break;
-        case 4:
-            printf("Counting your cash...\n");
-            break;
-        case 5:
-            printf("Counting your cash...\n");
-            break;
-        default:
-            break;
-        }
+        //switch (cash)
+        //{
+        //case 1:
+            //printf("Counting your cash...\n");
+            //break;
+        //case 2:
+            //printf("Counting your cash...\n");
+            //break;
+        //case 3:
+            //printf("Counting your cash...\n");
+            //break;
+        //case 4:
+            //printf("Counting your cash...\n");
+            //break;
+        //case 5:
+            //printf("Counting your cash...\n");
+            //break;
+        //default:
+            //break;
+        //}
 
-        if (cash == 1)
-        {
-            int cob;
-            printf("1. Coins or 2. Bill ?\n");
-            scanf("%d", &cob);
+        //if (cash == 1)
+        //{
+            //int cob;
+            //printf("1. Coins or 2. Bill ?\n");
+            //scanf("%d", &cob);
 
-            switch (cob)
-            {
-            case 1:
-                printf("You recived:\n(1) ten bill\n(1) five bill\n(5) one coins\n");
-                break;
-            case 2:
-                printf("You recived:\n(1) twenty bill\n");
-            default:
+            //switch (cob)
+            //{
+            //case 1:
+                //printf("You recived:\n(1) ten bill\n(1) five bill\n(5) one coins\n");
+                //break;
+            //case 2:
+                //printf("You recived:\n(1) twenty bill\n");
+            //default:
+                //break;
+            //}
+        //}
+        //else if (cash == 2)
+        //{
+            //printf("You recived:\n(1) fifty bill\n");
+        //}
+        //else if (cash == 3)
+        //{
+            //printf("You recived:\n(1) onehundred bill\n");
+        //}
+        //else if (cash == 4)
+        //{
+            //printf("You recived:\n(5) onehundred bills\n");
+        //}
+        //else if (cash == 4)
+        //{
+            //printf("You recived:\n(5) onehundred bills\n");
+        //}
+        //else if (cash == 5)
+        //{
+            //printf("You recived:\n(10) onehundred bills\n");
+        //}
+        //else {
+            //printf("Invalid operation, restarting...\n");
+        //}
+    //} while (cash = (cash > 5));
+    
+//20. Determinar si un número tiene exactamente 3 divisores.
+
+    int num;
+
+    printf("Insert a number: ");
+    scanf("%d", &num);
+
+    if (sqrt(num) == (int)sqrt(num)) {
+        
+        int prime = 1;
+        int root = sqrt(num);
+
+        for (int i = 2; i < root; i++) {
+            if (root % i == 0) {
+                prime = 0;
                 break;
             }
         }
-        else if (cash == 2)
-        {
-            printf("You recived:\n(1) fifty bill\n");
+
+        if (prime == 1) {
+            printf("Your number has exactly 3 divisors.\n");
+        } else {
+            printf("Your number does NOT have exactly 3 divisors.\n");
         }
-        else if (cash == 3)
-        {
-            printf("You recived:\n(1) onehundred bill\n");
-        }
-        else if (cash == 4)
-        {
-            printf("You recived:\n(5) onehundred bills\n");
-        }
-        else if (cash == 4)
-        {
-            printf("You recived:\n(5) onehundred bills\n");
-        }
-        else if (cash == 5)
-        {
-            printf("You recived:\n(10) onehundred bills\n");
-        }
-        else {
-            printf("Invalid operation, restarting...\n");
-        }
-    } while (cash = (cash > 5));
+    } else {
+        printf("Your number does NOT have exactly 3 divisors.\n");
+    }
     
-    
+
     
     
     
