@@ -488,16 +488,32 @@ int main() {
     
 //22. Calcular el precio total con IGV (18%) dado un subtotal.    
     
-    float subtotal;
-    float igv = 0.18;
+    //float subtotal;
+    //float igv = 0.18;
 
-    printf("Insert the subtotal: ");
-    scanf("%f", &subtotal);
+    //printf("Insert the subtotal: ");
+    //scanf("%f", &subtotal);
 
-    float total = (subtotal * igv) + subtotal;
+    //float total = (subtotal * igv) + subtotal;
 
-    printf("The total amount with IGV is: %.2lf\n", total);
+    //printf("The total amount with IGV is: %.2lf\n", total);
 
+//23. Mostrar todos los números pares entre 1 y N.
+
+    int num;
+
+    printf("Insert your number: ");
+    scanf("%d", &num);
+
+    for (int i = 1; i <= num; i++) 
+    {
+        if (i % 2 == 0) 
+        {
+            printf("%d\n", i);
+        }
+    }
+
+//24. Leer una hora (hh:mm:ss) y sumarle un segundo.
 
 
     
