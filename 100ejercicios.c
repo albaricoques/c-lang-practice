@@ -467,28 +467,39 @@ int main() {
     
 //21. Leer una letra y convertirla a mayúscula si es minúscula (y viceversa).
 
-    char letter;
+    //char letter;
 
-    printf("Insert a letter: ");
-    scanf(" %c", &letter);
+    //printf("Insert a letter: ");
+    //scanf(" %c", &letter);
 
-    if (letter >= 'a' && letter <= 'z')
-    {
-        letter -= 32;
+    //if (letter >= 'a' && letter <= 'z')
+    //{
+        //letter -= 32;
 
-        printf("%c\n", letter);
-    }
-    else if (letter >= 'A' && letter <= 'Z')
-    {
-        letter += 32;
+        //printf("%c\n", letter);
+    //}
+    //else if (letter >= 'A' && letter <= 'Z')
+    //{
+        //letter += 32;
 
-        printf("%c\n", letter);
-    }
-    else("Invalid input.\n");
+        //printf("%c\n", letter);
+    //}
+    //else("Invalid input.\n");
     
+//22. Calcular el precio total con IGV (18%) dado un subtotal.    
     
-    
-    
+    float subtotal;
+    float igv = 0.18;
+
+    printf("Insert the subtotal: ");
+    scanf("%f", &subtotal);
+
+    float total = (subtotal * igv) + subtotal;
+
+    printf("The total amount with IGV is: %.2lf\n", total);
+
+
+
     
     
     
