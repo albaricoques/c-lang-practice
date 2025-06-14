@@ -439,33 +439,53 @@ int main() {
     
 //20. Determinar si un número tiene exactamente 3 divisores.
 
-    int num;
+    //int num;
 
-    printf("Insert a number: ");
-    scanf("%d", &num);
+    //printf("Insert a number: ");
+    //scanf("%d", &num);
 
-    if (sqrt(num) == (int)sqrt(num)) {
-        
-        int prime = 1;
-        int root = sqrt(num);
+    //if (sqrt(num) == (int)sqrt(num)) {
+//        
+        //int prime = 1;
+        //int root = sqrt(num);
 
-        for (int i = 2; i < root; i++) {
-            if (root % i == 0) {
-                prime = 0;
-                break;
-            }
-        }
+        //for (int i = 2; i < root; i++) {
+            //if (root % i == 0) {
+                //prime = 0;
+                //break;
+            //}
+        //}
 
-        if (prime == 1) {
-            printf("Your number has exactly 3 divisors.\n");
-        } else {
-            printf("Your number does NOT have exactly 3 divisors.\n");
-        }
-    } else {
-        printf("Your number does NOT have exactly 3 divisors.\n");
-    }
+        //if (prime == 1) {
+            //printf("Your number has exactly 3 divisors.\n");
+        //} else {
+            //printf("Your number does NOT have exactly 3 divisors.\n");
+        //}
+    //} else {
+        //printf("Your number does NOT have exactly 3 divisors.\n");
+    //}
     
+//21. Leer una letra y convertirla a mayúscula si es minúscula (y viceversa).
 
+    char letter;
+
+    printf("Insert a letter: ");
+    scanf(" %c", &letter);
+
+    if (letter >= 'a' && letter <= 'z')
+    {
+        letter -= 32;
+
+        printf("%c\n", letter);
+    }
+    else if (letter >= 'A' && letter <= 'Z')
+    {
+        letter += 32;
+
+        printf("%c\n", letter);
+    }
+    else("Invalid input.\n");
+    
     
     
     
