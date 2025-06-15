@@ -526,10 +526,12 @@ int main() {
     if (ss == 60)
     {
         mm++;
+        ss = 0;
 
         if (mm == 60)
         {
             hh++;
+            mm = 0;
 
             if (hh == 24)
             {
@@ -542,7 +544,8 @@ int main() {
     }
     
 
-    printf("%02d:%02d:%02d\n", hh, mm, ss);
+    
+
 
 
     
