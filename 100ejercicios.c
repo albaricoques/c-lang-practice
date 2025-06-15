@@ -500,24 +500,51 @@ int main() {
 
 //23. Mostrar todos los números pares entre 1 y N.
 
-    int num;
+    //int num;
 
-    printf("Insert your number: ");
-    scanf("%d", &num);
+    //printf("Insert your number: ");
+    //scanf("%d", &num);
 
-    for (int i = 1; i <= num; i++) 
-    {
-        if (i % 2 == 0) 
-        {
-            printf("%d\n", i);
-        }
-    }
+    //for (int i = 1; i <= num; i++) 
+    //{
+        //if (i % 2 == 0) 
+        //{
+            //printf("%d\n", i);
+        //}
+    //}
 
 //24. Leer una hora (hh:mm:ss) y sumarle un segundo.
 
+    char time[9];
+    int hh, mm, ss;
+    
+    printf("Insert a time (hh:mm:ss): ");
+    scanf("%d:%d:%d", &hh, &mm, &ss);
 
+    ss++;
+
+    if (ss == 60)
+    {
+        mm++;
+
+        if (mm == 60)
+        {
+            hh++;
+
+            if (hh == 24)
+            {
+                hh = 0;
+                mm = 0;
+                ss = 0;
+            }
+        }
+        
+    }
     
-    
+
+    printf("%02d:%02d:%02d\n", hh, mm, ss);
+
+
     
     
     
