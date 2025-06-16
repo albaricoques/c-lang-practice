@@ -563,31 +563,53 @@ int main() {
     
 //26. Leer un número de 4 dígitos y verificar si es capicúa.
 
-    int num;
-    int dig1, dig2, dig3, dig4;
+    //int num;
+    //int dig1, dig2, dig3, dig4;
 
-    printf("Insert a 4 digits number: ");
-    scanf("%d", &num);
+    //printf("Insert a 4 digits number: ");
+    //scanf("%d", &num);
 
-    if (num >= 1000 && num < 10000) 
+    //if (num >= 1000 && num < 10000) 
+    //{
+        //dig1 = num % 10;
+        //dig2 = (num / 10) % 10;
+        //dig3 = (num / 100) % 10;
+        //dig4 = num / 1000;
+
+        //if (dig1 == dig4 && dig2 == dig3)
+        //{
+            //printf("Your number is capicua.\n");
+        //}
+        //else {
+            //printf("Your number is not capicua.\n");
+        //}
+    //}
+    //else {
+        //printf("Invalid input.\n");
+    //}
+
+//27. Calcular el número de cifras pares e impares de un número.
+
+    char num[20];
+    int pair = 0, odd = 0;
+
+    printf("Insert a number: ");
+    scanf("%s", num);
+
+    for (int i = 0; i < strlen(num); i++)
     {
-        dig1 = num % 10;
-        dig2 = (num / 10) % 10;
-        dig3 = (num / 100) % 10;
-        dig4 = num / 1000;
+        int digit = num[i] - '0';
 
-        if (dig1 == dig4 && dig2 == dig3)
+        if (digit % 2 == 0 && digit != 0)
         {
-            printf("Your number is capicua.\n");
+            pair++;
         }
-        else {
-            printf("Your number is not capicua.\n");
+        else if (digit % 2 != 0 && digit != 0){
+            odd ++;
         }
-    }
-    else {
-        printf("Invalid input.\n");
     }
     
+    printf("Your number has %d pair numbers and %d odd numbers.\n", pair, odd);
     
     
     
