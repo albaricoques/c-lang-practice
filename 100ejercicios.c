@@ -515,37 +515,52 @@ int main() {
 
 //24. Leer una hora (hh:mm:ss) y sumarle un segundo.
 
-    char time[9];
-    int hh, mm, ss;
-    
-    printf("Insert a time (hh:mm:ss): ");
-    scanf("%d:%d:%d", &hh, &mm, &ss);
+    //char time[9];
+    //int hh, mm, ss;
+//    
+    //printf("Insert a time (hh:mm:ss): ");
+    //scanf("%d:%d:%d", &hh, &mm, &ss);
 
-    ss++;
+    //ss++;
 
-    if (ss == 60)
+    //if (ss == 60)
+    //{
+        //mm++;
+        //ss = 0;
+
+        //if (mm == 60)
+        //{
+            //hh++;
+            //mm = 0;
+
+            //if (hh == 24)
+            //{
+                //hh = 0;
+                //mm = 0;
+                //ss = 0;
+            //}
+        //}
+//        
+    //}
+//    
+
+    //printf("%02d:%02d:%02d\n", hh, mm, ss);
+
+//25. Mostrar la tabla de multiplicar de un número del 1 al 10.
+
+    int num;
+    int result;
+
+   
+    printf("Insert a number: ");
+    scanf("%d", &num);
+
+    for (int i = 1; i <= 10; i++)
     {
-        mm++;
-        ss = 0;
-
-        if (mm == 60)
-        {
-            hh++;
-            mm = 0;
-
-            if (hh == 24)
-            {
-                hh = 0;
-                mm = 0;
-                ss = 0;
-            }
-        }
-        
+        result = num * i;
+        printf("%d * %d = %d\n", num, i, result);
     }
     
-
-    
-
 
 
     
