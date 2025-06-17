@@ -590,27 +590,79 @@ int main() {
 
 //27. Calcular el número de cifras pares e impares de un número.
 
-    char num[20];
-    int pair = 0, odd = 0;
+    //char num[20];
+    //int pair = 0, odd = 0;
 
-    printf("Insert a number: ");
-    scanf("%s", num);
+    //printf("Insert a number: ");
+    //scanf("%s", num);
 
-    for (int i = 0; i < strlen(num); i++)
+    //for (int i = 0; i < strlen(num); i++)
+    //{
+        //int digit = num[i] - '0';
+
+        //if (digit % 2 == 0 && digit != 0)
+        //{
+            //pair++;
+        //}
+        //else if (digit % 2 != 0 && digit != 0){
+            //odd ++;
+        //}
+    //}
+//    
+    //printf("Your number has %d pair numbers and %d odd numbers.\n", pair, odd);
+
+//28. Leer dos tiempos (en formato hh:mm) y determinar cuál es mayor.
+
+    int hh1, mm1, ss1;
+    int hh2, mm2, ss2;
+
+    printf("Insert the first time (hh:mm:ss): ");
+    scanf("%d:%d:%d", &hh1, &mm1, &ss1);
+
+    printf("Insert the second time (hh:mm:ss): ");
+    scanf("%d:%d:%d", &hh2, &mm2, &ss2);
+    
+    if (hh1 >= 0 && hh1 <= 23 && mm1 >= 0 && mm1 <= 59 && ss1 >= 0 && ss1 <= 59 && hh2 >= 0 && hh2 <= 23 && mm2 >= 0 && mm2 <= 59 && ss2 >= 0 && ss2 <= 59)
     {
-        int digit = num[i] - '0';
-
-        if (digit % 2 == 0 && digit != 0)
+        if (hh1 > hh2)
         {
-            pair++;
+            printf("Your first time is greater than your second one.\n");
         }
-        else if (digit % 2 != 0 && digit != 0){
-            odd ++;
+        else if (hh2 > hh1)
+        {
+            printf("Your second time is greater than your first one.\n");
+        }
+        else if (hh1 == hh2)
+        {
+            if (mm1 > mm2)
+            {
+                printf("Your first time is greater than your second one.\n");
+            }
+            else if (mm2 > mm1)
+            {
+                printf("Your second time is greater than your first one.\n");
+            }
+            else if (mm1 == mm2)
+            {
+                if (ss1 > ss2)
+                {
+                    printf("Your first time is greater than your second one.\n");
+                }
+                else if (ss2 > ss1)
+                {
+                    printf("Your second time is greater than your first one.\n");
+                }
+                else if (ss1 == ss2)
+                {
+                    printf("Both times are equals.\n");
+                }
+                
+            }
         }
     }
-    
-    printf("Your number has %d pair numbers and %d odd numbers.\n", pair, odd);
-    
+    else {
+        printf("Invalid input.\n");
+    }
     
     
     
