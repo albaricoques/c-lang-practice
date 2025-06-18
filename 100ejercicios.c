@@ -613,58 +613,89 @@ int main() {
 
 //28. Leer dos tiempos (en formato hh:mm) y determinar cuál es mayor.
 
-    int hh1, mm1, ss1;
-    int hh2, mm2, ss2;
+    //int hh1, mm1, ss1;
+    //int hh2, mm2, ss2;
 
-    printf("Insert the first time (hh:mm:ss): ");
-    scanf("%d:%d:%d", &hh1, &mm1, &ss1);
+    //printf("Insert the first time (hh:mm:ss): ");
+    //scanf("%d:%d:%d", &hh1, &mm1, &ss1);
 
-    printf("Insert the second time (hh:mm:ss): ");
-    scanf("%d:%d:%d", &hh2, &mm2, &ss2);
+    //printf("Insert the second time (hh:mm:ss): ");
+    //scanf("%d:%d:%d", &hh2, &mm2, &ss2);
+//    
+    //if (hh1 >= 0 && hh1 <= 23 && mm1 >= 0 && mm1 <= 59 && ss1 >= 0 && ss1 <= 59 && hh2 >= 0 && hh2 <= 23 && mm2 >= 0 && mm2 <= 59 && ss2 >= 0 && ss2 <= 59)
+    //{
+        //if (hh1 > hh2)
+        //{
+            //printf("Your first time is greater than your second one.\n");
+        //}
+        //else if (hh2 > hh1)
+        //{
+            //printf("Your second time is greater than your first one.\n");
+        //}
+        //else if (hh1 == hh2)
+        //{
+            //if (mm1 > mm2)
+            //{
+                //printf("Your first time is greater than your second one.\n");
+            //}
+            //else if (mm2 > mm1)
+            //{
+                //printf("Your second time is greater than your first one.\n");
+            //}
+            //else if (mm1 == mm2)
+            //{
+                //if (ss1 > ss2)
+                //{
+                    //printf("Your first time is greater than your second one.\n");
+                //}
+                //else if (ss2 > ss1)
+                //{
+                    //printf("Your second time is greater than your first one.\n");
+                //}
+                //else if (ss1 == ss2)
+                //{
+                    //printf("Both times are equals.\n");
+                //}
+//                
+            //}
+        //}
+    //}
+    //else {
+        //printf("Invalid input.\n");
+    //}
     
-    if (hh1 >= 0 && hh1 <= 23 && mm1 >= 0 && mm1 <= 59 && ss1 >= 0 && ss1 <= 59 && hh2 >= 0 && hh2 <= 23 && mm2 >= 0 && mm2 <= 59 && ss2 >= 0 && ss2 <= 59)
+//29. Calcular la cantidad de días, semanas y años a partir de una cantidad de días.
+    
+    int days, weeks, years;
+
+    printf("Insert the total days: ");
+    scanf("%d", &days);
+
+    if (days > 0 && days < 7)
     {
-        if (hh1 > hh2)
+        printf("%d days.\n", days);
+    }
+    else if (days >= 7)
+    {
+        weeks = days / 7;
+        days %= 7;
+        
+        if (weeks < 52)
         {
-            printf("Your first time is greater than your second one.\n");
+            printf("%d day(s)\n%d week(s)\n", days, weeks);
         }
-        else if (hh2 > hh1)
+        else if (weeks >= 52)
         {
-            printf("Your second time is greater than your first one.\n");
-        }
-        else if (hh1 == hh2)
-        {
-            if (mm1 > mm2)
-            {
-                printf("Your first time is greater than your second one.\n");
-            }
-            else if (mm2 > mm1)
-            {
-                printf("Your second time is greater than your first one.\n");
-            }
-            else if (mm1 == mm2)
-            {
-                if (ss1 > ss2)
-                {
-                    printf("Your first time is greater than your second one.\n");
-                }
-                else if (ss2 > ss1)
-                {
-                    printf("Your second time is greater than your first one.\n");
-                }
-                else if (ss1 == ss2)
-                {
-                    printf("Both times are equals.\n");
-                }
-                
-            }
-        }
+            years = weeks / 52;
+            weeks %= 52;
+            days %= 7;
+
+            printf("%d day(s)\n%d week(s)\n%d year(s)\n", days, weeks, years);
+        } 
     }
     else {
         printf("Invalid input.\n");
     }
-    
-    
     
     
     
