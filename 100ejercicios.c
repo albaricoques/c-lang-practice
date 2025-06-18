@@ -666,39 +666,84 @@ int main() {
     
 //29. Calcular la cantidad de días, semanas y años a partir de una cantidad de días.
     
-    int days, weeks, years;
+    //int days, weeks, years;
 
-    printf("Insert the total days: ");
-    scanf("%d", &days);
+    //printf("Insert the total days: ");
+    //scanf("%d", &days);
 
-    if (days > 0 && days < 7)
+    //if (days > 0 && days < 7)
+    //{
+        //printf("%d days.\n", days);
+    //}
+    //else if (days >= 7)
+    //{
+        //weeks = days / 7;
+        //days %= 7;
+//        
+        //if (weeks < 52)
+        //{
+            //printf("%d day(s)\n%d week(s)\n", days, weeks);
+        //}
+        //else if (weeks >= 52)
+        //{
+            //years = weeks / 52;
+            //weeks %= 52;
+            //days %= 7;
+
+            //printf("%d day(s)\n%d week(s)\n%d year(s)\n", days, weeks, years);
+        //} 
+    //}
+    //else {
+        //printf("Invalid input.\n");
+    //}
+    
+//30. Leer la edad de tres personas y mostrar la mayor, menor y promedio.
+    
+    int age1, age2, age3;
+    int average;
+
+    printf("Insert the age of the first person: ");
+    scanf("%d", &age1);
+
+    printf("Insert the age of the second person: ");
+    scanf("%d", &age2);
+
+    printf("Insert the age of the third person: ");
+    scanf("%d", &age3);
+
+    if (age1 > 0 && age2 > 0 && age3 > 0)
     {
-        printf("%d days.\n", days);
-    }
-    else if (days >= 7)
-    {
-        weeks = days / 7;
-        days %= 7;
-        
-        if (weeks < 52)
+        average = (age1 + age2 + age3) / 3;
+
+        if (age1 > age2 && age2 > age3)
         {
-            printf("%d day(s)\n%d week(s)\n", days, weeks);
+            printf("Largest: %d\nSmallest: %d\nAverage: %d\n", age1, age3, average);
         }
-        else if (weeks >= 52)
+        else if (age2 > age1 && age1 > age3)
         {
-            years = weeks / 52;
-            weeks %= 52;
-            days %= 7;
-
-            printf("%d day(s)\n%d week(s)\n%d year(s)\n", days, weeks, years);
-        } 
+            printf("Largest: %d\nSmallest: %d\nAverage: %d\n", age2, age3, average);
+        }
+        else if (age3 > age1 && age1 > age2)
+        {
+            printf("Largest: %d\nSmallest: %d\nAverage: %d\n", age3, age2, average);
+        }
+        else if (age1 > age3 && age3 > age2)
+        {
+            printf("Largest: %d\nSmallest: %d\nAverage: %d\n", age1, age2, average);
+        }
+        else if (age2 > age3 && age3 > age1)
+        {
+            printf("Largest: %d\nSmallest: %d\nAverage: %d\n", age2, age1, average);
+        }
+        else if (age3 > age2 && age2 > age1)
+        {
+            printf("Largest: %d\nSmallest: %d\nAverage: %d\n", age3, age1, average);
+        }
     }
     else {
         printf("Invalid input.\n");
     }
     
-    
-    
-    
+
     return 0;
 }
